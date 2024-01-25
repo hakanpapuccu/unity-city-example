@@ -1,9 +1,12 @@
 ﻿<Properties StartupConfiguration="{1DD2D7D7-9A08-065C-EA38-E4C4A64FDCFB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Building.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BuildingPlacement.cs">
     <Files>
       <File FileName="Assets/Scripts/CameraController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/BuildingPreset.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BuildingPreset.cs" />
       <File FileName="Assets/Scripts/Building.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Selector.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BuildingPlacement.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/City.cs" Line="16" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +14,7 @@
           <Node name="unity-city-example" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Building.cs" selected="True" />
+                <Node name="BuildingPlacement.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -21,7 +24,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d2ee6540-2ec4-4478-a623-5191f5b840fd" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="07efba9c-0ea2-4ea7-8c60-b25f1037ce64" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
