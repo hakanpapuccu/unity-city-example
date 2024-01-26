@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BuildingPlacement : MonoBehaviour
 {
@@ -16,18 +17,32 @@ public class BuildingPlacement : MonoBehaviour
 
     public GameObject placementIndicator;
     public GameObject bulldozerIndicator;
+    public GameObject ErrorScreen;
+    public Text ErrorText;
 
 
     public void BeginNewBuildingPlacement(BuildingPreset preset)
     {
-        /*if(City.instance.money<preset.cost)
+        if(City.instance.money<preset.cost)
         {
-            return;
-        }*/
+            CancelBuildingPlacement();
+            ErrorScreen.SetActive(true);
+            ErrorText.text = "Your money is not enough to build this building.";
+        }
 
-        currentlyPlacing = true;
-        curBuildingPreset = preset;
-        placementIndicator.SetActive(true);
+        else
+        {
+            currentlyPlacing = true;
+            curBuildingPreset = preset;
+            placementIndicator.SetActive(true);
+        }
+
+        
+    }
+
+    public void ErrorOkButton()
+    {
+        ErrorScreen.SetActive(false);
     }
 
     void CancelBuildingPlacement()
