@@ -5,7 +5,7 @@
       <File FileName="Assets/Scripts/BuildingPreset.cs" />
       <File FileName="Assets/Scripts/Building.cs" />
       <File FileName="Assets/Scripts/Selector.cs" />
-      <File FileName="Assets/Scripts/BuildingPlacement.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BuildingPlacement.cs" Line="45" Column="38" />
       <File FileName="Assets/Scripts/City.cs" Line="16" Column="16" />
     </Files>
     <Pads>
@@ -22,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="247fdb9d-1426-471b-b0c7-5b9a724fc213" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0498323c-6346-4d6d-8fca-5113ce834364" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
