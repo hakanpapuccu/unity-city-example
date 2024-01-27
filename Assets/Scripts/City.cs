@@ -31,8 +31,9 @@ public class City : MonoBehaviour
     public void OnPlaceBuilding(Building building)
     {
         money -= building.preset.cost;
-        maxPopulation += building.preset.population;
-        maxJobs += building.preset.jobs;
+        curPopulation += building.preset.population;
+        curJobs += building.preset.jobs;
+        curFood += building.preset.food;
         buildings.Add(building);
         UpdateStatText();
     }
